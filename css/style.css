@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#service, #products, #contact{
+    background-color: #F3F3F3;
+}
+ .title p{
+    color: var(--Pars-Color, #7C7C7C);
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+    .title h3{
+    color: var(--Primary, #000);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+   }
+/* ==========nav start=============== */
+
+.navbar{
+    padding: 20px 0;
+ 
+}
+.navbar img{
+    width: 170px;
+    height: 100px;
+}
+.navbar ul{
+    display: flex;
+    gap: 34px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--Primary, #000);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.navbar a{
+        margin-bottom: 14px;  
+        margin-right: 34px;
+        text-decoration: none;
+    }
+  .navbar .button {
+        display: inline-block;
+        color: var(--Primary, #000);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        text-align: center;
+        padding: 12px 22px;
+        border: 2px solid var(--Primary, #000);
+        background: var(--White-Color, #FFF);}
+/* ===============nav end=============== == */
+
+/* ================banner start=============== */
+    #banner{
+        padding-top: 148px;
+       padding-bottom: 142px;
+    }
+
+    #banner .text-area {
+    margin: 0 228px ;
+    }
+    .text-area h1{
+    width: 840px;
+    color: var(--Primary, #000);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5px; /* 142.241% */
+    text-transform: capitalize;
+    }
+
+    .text-area p{
+    width: 779px;
+    padding: 44px 0;
+    color: var(--Pars-Color, #7C7C7C);
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 175% */
+    text-transform: capitalize;
+    }
+.buttons {
+   margin-top: 44px;
+   text-align: center;
+
+}
+.buttons a{
+   text-decoration: none;
+   
+}
+.buttons .ass_btn{
+   color: var(--Primary, #000);
+   width: 196px;
+   padding: 20px 53px;
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 19px; /* 118.75% */
+   text-transform: capitalize;
+   background: var(--Seconday, #DCDCDC);
+   margin-right: 18px;
+}
+.buttons .black_btn{
+   color: var(--White-Color, #FFF);
+   width: 196px;
+   padding: 20px 22px;
+   text-align: center;
+   font-family: Inter;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 19px; /* 118.75% */
+   text-transform: capitalize;
+   border: 1px solid var(--Primary, #000);
+   background: var(--Primary, #000);
+}
+/* ==========banner end=============== */
+/* ==========service start=============== */
+
+/* =========service end=============== */
+    #service{
+        padding: 60px 168px;
+    }
+     #service .details{
+        background-color: #FFFFFF;
+        text-align: center;
+        padding-top: 62px;
+        padding-bottom: 43px;
+      
+    }
+    #service img {
+        width: 50px;
+        height: 51.948px;
+        /* text-align: center; */
+        margin: 0 auto;
+     }
+    #service .details h3{
+        width: 279px;
+        padding: 40px 0;
+        margin: 0 auto;
+        color: var(--Primary, #000);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        /* line-height: 42.5px;  */
+        text-transform: capitalize;
+    
+    }
+  #service .details p{
+    width: 296px;
+    color: var(--Pars-Color, #7C7C7C);
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: capitalize; 
+   }
+
+
+/* ==========project start=============== */
+    #project{
+        margin: 60px 0;
+    }
+    .title{
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+    .project_details .left{
+        width: 414px;
+        height: 345px;
+        /* flex-shrink: 0; */
+    }
+    .project_details .right{
+        margin-left: 30px;
+    }
+    .project_details .right h4{
+        color: var(--Text-color, #1D1D1D);
+        /* text-align: center; */
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 82.5px; 
+        text-transform: capitalize;
+    
+    }
+    .project_details .right h6{
+        color: var(--Pars-Color, #7C7C7C);
+        /* text-align: center; */
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        text-transform: capitalize;
+    
+    }
+    .project_details .right p{
+        width: 607px;
+        margin: 26px 0;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--Pars-Color, #7C7C7C);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38.5px; /* 192.5% */
+        text-transform: capitalize;
+    }
+    .project_details .right a {
+        text-decoration: none;
+        color: var(--Text-color, #1D1D1D);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 12px 4px;
+
+        }
+    .project_details .row{
+        margin-bottom: 38px;
+        }
+        .project_details .empty{
+           margin-top: 5px;
+           width: 122px;
+           border:2px solid var(--Text-color, #1D1D1D);
+        }
+    /* ==========project end============== */
+    /* <!-- ================products start================== --> */
+
+    #products{
+        padding: 60px 0px; 
+      
+    }
+   
+    .card-item{
+        margin-left: 20px;
+    }
+   .cards .details {
+        background-color: white;
+        padding: 18px 20px;
+    }
+    #products .cards .heading{
+        display: flex; 
+        justify-content: space-between;
+     }
+   .cards .details .cards img {
+        /* width: 348px; */
+        width: 100%;
+    }
+    .cards .heading h3{
+        width: 122px;
+        color: var(--Text-color, #1D1D1D);
+        text-align: center;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        /* line-height: 82.5px; */
+        text-transform: capitalize;
+    }
+    .cards .heading h4{
+        /* color: var(--Text-color, #1D1D1D); */
+        color: var(--Text-color, #1D1D1D);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        /* line-height: 82.5px;  */
+        text-transform: uppercase;
+
+    }
+    .cards .card-item p{
+        color: var(--Par-Color, #7C7C7C);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 82.5px; 
+        text-transform: capitalize;
+    }
+   .cards button {
+        width: 305px;
+        height: 58px;
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 82.5px; 
+        text-transform: capitalize;
+        background: var(--Primary, #000);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     /* <!-- ================products end====================== -->  */
+     /* <!-- ===============find me start======================= -- */
+        #find {
+            padding-top:111px ;
+            padding-bottom: 86px;
+        }
+        .workspace ul {
+          gap: 106px;
+        }
+        .workspace ul li{
+            list-style-type: none;
+        }
+        .workspace ul li a{
+            text-decoration: none;
+            color:#000;
+            font-family: Inter;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            /* color: var(--Primary, #000);
+            text-decoration-line: underline; */
+
+        }
+        .workspace .bar {
+            line-height: normal;
+            width: 200px;
+            border: 2px solid #000;
+           
+        }
+     /* <!-- ================find me end====================== -->  */
+     /* ==============contact start================= */
+     #contact{
+        padding: 85.5px 0;
+     }
+     .media{
+        gap: 20px;
+     }
+     #contact .media a {
+        text-decoration: none;
+        color: var(--Primary, #000);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 80px; /* 400% */
+        text-transform: capitalize;
+        display: flex;
+        width: 290px;
+        height: 77px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* flex-shrink: 0; */
+        background: var(--White-Color, #FFF);
+     }
+     /* ==============contact end================= */
+     /* ==============footer start================= */
+     footer{
+        padding-top: 118px;
+        padding-bottom: 90px;
+        background-color: #000;
+        text-align: center;
+     }
+     footer .logo{
+         gap: 30px;
+        align-items: center;
+     }
+     footer .logo img{
+        width: 150px ;
+        height: 100px; 
+     }
+     footer .logo h2{
+        color: var(--White-Color, #FFF);
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+     }
+     footer p{
+        color: var(--White-Color, #FFF);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 57px;
+     }
+     /* ==============footer end================= */
